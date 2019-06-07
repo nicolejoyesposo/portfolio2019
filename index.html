@@ -1,0 +1,335 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <title>Nicole: Web Developer</title>
+
+        <!-- css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- external bootstrap css -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/hover.css">
+        
+         <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lilita+One|Nunito|Oswald&display=swap" rel="stylesheet">
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
+        crossorigin="anonymous">
+
+        <!-- animate on scroll -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!-- fontawesome -->
+        <script src="https://use.fontawesome.com/73371e69b0.js"></script>
+
+        <!-- script -->
+		<script src="assets/js/script.js"></script>
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="parent-container"> <!-- MAIN CONTAINER OF SITE -->
+
+            <div class="sider-menu"> <!-- SIDER MENU -->
+                <ul>
+                    <li class="logo-image">
+                        <img src="assets/images/nicole-logo.png" alt="N Logo">
+                    </li>
+                    <li class="links"><a href="#works" class="hvr-underline-from-left">WORKS</a></li>
+                    <li class="links"><a href="#about" class="hvr-underline-from-left">ABOUT</a></li>
+                    <li class="logo-image-small-nav">
+                        <img src="assets/images/nicole-logo.png" alt="N Logo">
+                    </li>
+                    <li class="links"><a href="#resume" class="hvr-underline-from-left">RESUME</a></li>
+                    <li class="links"><a href="#contact" class="hvr-underline-from-left">CONTACT</a></li>
+                    <li class="burger">
+                        <i class="fas fa-bars"></i>
+                    </li>
+                </ul>
+            </div> <!-- END OF SIDER MENU -->
+
+            <!-- display only when 560px -->
+            <div class="dropdown" style="display: none">
+                    <ul>
+                        <li class="dlinks"><a class="hvr-underline-from-left" href="#works">WORKS</a></li>
+                        <li class="dlinks"><a class="hvr-underline-from-left" href="#about">ABOUT</a></li>
+                        <li class="dlinks"><a class="hvr-underline-from-left" href="#resume">RESUME</a></li>
+                        <li class="dlinks"><a class="hvr-underline-from-left" href="#contact">CONTACT</a></li>
+                    </ul>
+            </div>
+
+            <div class="content-container"> <!-- CONTENT CONTAINER OF SITE -->
+                
+                <!-- HEADER WITH IMAGE -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 header-image-container">
+                            <div>
+                                <p id="my-name">I'M NICOLE JOY ESPOSO</p>
+                                <h1 class="web-motto">
+                                    DESIGN & DEVELOP
+                                </h1>
+                                <p class="summary-skills">
+                                    UI/UX + Prototype + Code
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="works"></div>
+
+                <!-- WORKS CONTAINER -->
+                <div class="container-fluid works-container" style="overflow-x: hidden">
+                    <div class="row">
+
+                        <!-- WORKS TITLE -->
+                        <div class="col-md-12 section-title-container">
+                            <img src="assets/images/work-title.png" alt="Work">
+                        </div>
+
+                        <!-- WORKS ITEM STARTS HERE -->
+                        <!-- KALON FLAIR -->
+                        <div class="col-lg-5 offset-lg-1 col-md-6 works-image">
+                            <div data-aos="fade-up" data-aos-duration="2000">
+                                <img src="assets/images/vibrant.png" alt="Kalon Flair">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 works-info">
+                            <div data-aos="fade-down" data-aos-duration="2000">
+                                <h3>VIBRANT</h3>
+                                <p>
+                                        Who doesn't like sweets? Everyone craves dessert every once in a while.
+                                         Here I have created a really simple static website about one of the most elegant 
+                                         dessert, macarons. 
+                                </p>
+                                <span class="badge badge-pill badge-light">HTML5</span>
+                                <span class="badge badge-pill badge-light">CSS3</span>
+                                <span class="badge badge-pill badge-light">Javascript</span>
+                                <span class="badge badge-pill badge-light">Bootstrap</span>
+                                <!-- <span class="badge badge-pill badge-light">Responsive Web Design</span> -->
+                                <br>
+                                <br>
+                                <a class="btn btn-sm btn-outline-light hvr-sweep-to-right" role="button" href="vibrant/index.html"  target="_blank">View Website</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <hr>
+                        </div>
+
+                        <!-- I DO KNOT -->
+                        <div class="col-lg-5 offset-lg-1 col-md-6 works-image">
+                            <div data-aos="fade-up" data-aos-duration="2000">
+                                <img src="assets/images/idoknot.png" alt="Kalon Flair">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 works-info">
+                            <div data-aos="fade-down" data-aos-duration="2000">
+                                <h3>I DO KNOT</h3>
+                                <p>
+                                    Marriage requires a lot of time and money. Here I have created 
+                                    a simple ecommerce website for wedding rings so that couples can 
+                                    lessen their time searching stores to stores to find the best 
+                                    smallest handcuffs they’ll wear for the rest of their lives.
+                                </p>
+                                <span class="badge badge-pill badge-light">HTML5</span>
+                                <span class="badge badge-pill badge-light">CSS3</span>
+                                <span class="badge badge-pill badge-light">Javascript</span>
+                                <span class="badge badge-pill badge-light">Bootstrap</span>
+                                <br>
+                                <br>
+                                <a class="btn btn-sm btn-outline-light hvr-sweep-to-right" role="button" href="https://i-do-knot.000webhostapp.com/"  target="_blank">View Website</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <hr>
+                        </div>
+
+                        <!-- UNSPOKEN WORDS -->
+                        <div class="col-lg-5 offset-lg-1 col-md-6 works-image">
+                            <div data-aos="fade-up" data-aos-duration="2000">
+                                <img src="assets/images/unspoken.png" alt="Kalon Flair">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 works-info">
+                            <div data-aos="fade-down" data-aos-duration="2000">
+                                <h3>UNSPOKEN WORDS</h3>
+                                <p>
+                                    People nowadays, especially youth, loves to read posts which are 
+                                    about certain feelings. It makes them express some of their unspoken 
+                                    words. I have created a website with posts about random thoughts 
+                                    which I’m sure people can relate.
+                                </p>
+                                <span class="badge badge-pill badge-light">HTML5</span>
+                                <span class="badge badge-pill badge-light">CSS3</span>
+                                <span class="badge badge-pill badge-light">Javascript</span>
+                                <span class="badge badge-pill badge-light">Bootstrap</span>
+                                <span class="badge badge-pill badge-light">MySQL</span>
+                                <span class="badge badge-pill badge-light">PHP</span>
+                                <span class="badge badge-pill badge-light">Laravel</span>
+                                <br>
+                                <br>
+                                <a class="btn btn-sm btn-outline-light hvr-sweep-to-right" role="button" href="https://unspokenwords.000webhostapp.com/"  target="_blank">View Website</a>
+                            </div>
+                        </div>
+                        <!-- WORKS ITEM ENDS HERE -->
+
+                    </div>
+                </div>
+                <!-- END OF WORKS CONTAINER -->
+
+                <div id="about"></div>
+
+                <!-- ABOUT CONTAINER -->
+                <div class="container-fluid about-container" style="overflow-x: hidden">
+                    <div class="row">
+                        <div class="col-lg-12 section-title-container" style="margin-bottom: 25px">
+                            <img src="assets/images/about-title.png" alt="About me">
+                        </div>
+                        <div class="col-lg-4 col-md-6 my-info-container">
+                            <h4 data-aos="fade-right" data-aos-duration="2000">I'm Nicole, a Web Developer.</h4>
+                            <br>
+                            <p data-aos="fade-right" data-aos-duration="2500">
+                                People who knows me personally usually calls me <i>Ligaya</i>. I am a web developer and a web designer from Taguig City, Philippines. I'm 21 
+                                years old and have been creating and designing websites since May 2018. 
+                            </p>
+                            <p data-aos="fade-right" data-aos-duration="3000">
+                                    I am a proud graduate of Tuitt Coding Bootcamp, wherein I first started my 
+                                    coding career. I am currently working as a Junior Software Developer at Herohub 
+                                    Solutions Inc.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 order-lg-2 my-info-container">
+                            <p data-aos="fade-left" data-aos-duration="2000" class="help-term">I can help you with:</p>
+                            <ul>
+                                <li data-aos="fade-left" data-aos-duration="2200"><i class="fas fa-gem"></i> Designing a creative website with the client in mind</li>
+                                <li data-aos="fade-left" data-aos-duration="2400"><i class="fas fa-gem"></i> Creating a prototype for the see and feel of the website we'd like to develop together</li>
+                                <li data-aos="fade-left" data-aos-duration="2600"><i class="fas fa-gem"></i >Developing a responsive website that is flexible enough to adjust to any screen resolution</li>
+                                <li data-aos="fade-left" data-aos-duration="2800"><i class="fas fa-gem"></i> Conceptualizing a web design experience for users</li>
+                                <li data-aos="fade-left" data-aos-duration="3000"><i class="fas fa-gem"></i> Improving of any existing websites you think might need a little flair</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-12 order-lg-1 my-image-container">
+                            <div class="polaroid">
+                                <img src="assets/images/my_picture.png" alt="My picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF ABOUT CONTAINER -->
+
+                <div id="resume"></div>
+
+                <!-- RESUME CONTAINER -->
+                <div class="container-fluid resume-container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>LIKE WHAT YOU'RE SEEING?</h2>
+                            <p>If you're looking for a web developer who's fun and creative, check my resume. 
+                                <br>
+                                You might want me on your team.</p>
+                            <a class="btn btn-md btn-outline-light hvr-buzz-out" role="button" href="assets/nicole_joy_esposo.pdf" target="_blank">View Nicole&rsquo;s Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF RESUME CONTAINER -->
+
+
+                <div id="contact"></div>
+
+                <!-- CONTACT CONTAINER -->
+                <div class="container contact-container" style="overflow-x: hidden">
+                    <div class="row">
+                        <div class="col-lg-12 section-title-container" style="margin-bottom: 25px">
+                            <img src="assets/images/contact-title.png" alt="Contact me">
+                        </div>
+                        <div class="col-lg-5 offset-lg-1 col-md-6 contact-title-container">
+                            <h3 data-aos="fade-right" data-aos-duration="2000">LET'S DO SOMETHING AMAZING.</h3>
+                            <p data-aos="fade-right" data-aos-duration="2200">I'd love to hear from you. If you're interested in discussing a project or
+                                just want to say hello, drop me a line.
+                            </p>
+                            <br>
+                            <br>
+                            <p data-aos="fade-right" data-aos-duration="2300" class="social-media-label">FACEBOOK</p>
+                            <p data-aos="fade-right" data-aos-duration="2500">www.facebook.com/nicoleesposo1</p>
+                            <p data-aos="fade-right" data-aos-duration="2400" class="social-media-label">GMAIL</p>
+                            <p data-aos="fade-right" data-aos-duration="2600">nicolejoyesposo.jobs@gmail.com</p>
+                        </div>
+                        <div class="col-lg-5 col-md-6 contact-form-container">
+                            <form action="https://script.google.com/macros/s/AKfycbw5SDFHQs1myBYgkiHKEszCP2nmz1RhGnVCgAge/exec" 
+                                class="gform"
+                                method="POST">
+
+                                <div style="display:none" class="thankyou_message">
+                                    <div class="alert alert-dark" role="alert">
+                                        Thanks for messaging me! I'll get back to you soon.
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="name">What should I call you?</label>
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your full name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Where should I send you an email?</label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">What do you want to say?</label>
+                                    <textarea name="message" id="message" class="form-control" cols="30" rows="5" placeholder="Say &quot;hello&quot; to me here! What can I do for you?"></textarea>
+                                </div>
+
+
+                                <div class="form-group btn-submit">
+                                    <button class="btn hvr-float-shadow" type="submit">
+                                        SEND MESSAGE
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF CONTACT CONTAINER -->
+
+                <footer>
+                    Made with <i class="fas fa-heart"></i>
+                </footer>
+
+            </div>   <!-- END OF MAIN CONTENT CONTAINER -->
+            
+
+        </div> <!-- END OF MAIN CONTAINER OF SITE -->
+
+
+        <!-- script -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
+        <!-- form submission handler -->
+        <script data-cfasync="false" type="text/javascript" src="assets/js/form-submission-handler.js"></script>
+
+		<!-- external bootstrap javascript -->
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function() {
+			$('.burger i').click(function() {
+				$('.dropdown').toggle();
+			});
+        });
+
+        AOS.init();
+        </script>
+        
+    </body>
+</html>
