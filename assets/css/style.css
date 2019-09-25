@@ -23,12 +23,6 @@ body, html {
 }
 
 .parent-container
-.section-title-container
-img {
-    height: 100%;
-}
-
-.parent-container
 .dropdown {
     padding-top: 75px !important;
     color: white;
@@ -185,7 +179,6 @@ img {
 
 .parent-container
 .section-title-container {
-    height: auto;
     text-align: center;
 }
 
